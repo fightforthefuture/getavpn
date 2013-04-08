@@ -1,12 +1,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" version="-//W3C//DTD XHTML 1.1//EN" xml:lang="en">
 	<head>
+        <script src="//cdn.optimizely.com/js/21249520.js"></script>
+        
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<title>Six Strikes</title>
 		<meta name="description" content="content" />
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
+        <script>
+            function make_custom() {
+              var chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+              var i, s = ''
+              for (i = 0; i < 50; i++)  s += chars[parseInt(Math.random()*chars.length)]
+              return s + "_COUPON=FFF001"
+            }
+
+            function paypal_button(period) {
+              var buttons = { yearly: '5N2DHGTKP5KCW', monthly: '9RVEYLRFYUCW6' }
+              document.write('<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="custom" value="'+make_custom()+'"><input type="hidden" name="currency_code" value="USD"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="'+buttons[period]+'"><button>Buy for 3.33/mo with Paypal (fast)</button></button></form>')
+            }
+          </script>
+          
+          
 	</head>
 	<body>
 		
@@ -28,7 +46,7 @@
 				<div class="buttons">
 				
 				
-					<a href="http://">Buy for 3.33/mo with Paypal (fast)</a>
+					<script>paypal_button('yearly')</script>
 					<a class="dark" href="http://">Get a VPN with more options</a>
 				
 				</div>
@@ -126,6 +144,15 @@
 			</div>
 		
 		</div>
-		
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-26576645-18', 'getavpn.org');
+          ga('send', 'pageview');
+
+        </script>	
 	</body>
 </html>
