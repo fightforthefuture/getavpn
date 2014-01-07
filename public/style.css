@@ -1,5 +1,5 @@
 .header{
-width: 100%;
+min-width: 1000px;
 height: 80px;
 background-image: url('header.png');
 background-repeat: repeat-x;
@@ -76,7 +76,7 @@ background-position: bottom;
 
 
 .top{
-	width:100%;
+	min-width: 100%;
 	height:365px;
 	background-image: url('back2.jpg');
 	margin-top:0;
@@ -140,7 +140,7 @@ background-position: bottom;
 }
 
 .action{
-	width:100%;
+	min-width: 100%;
 	height:365px;
 	background-image: url('action.jpg');
 	background-repeat:repeat-x;
@@ -296,14 +296,14 @@ transition: opacity 0.2s ease-in-out;
 	
 	
 .content{
-	width:100%;
+	min-width:100%;
 	height:auto;
 	float:left;
 	padding-bottom: 30px;
 }
 
 .contenttwo{
-	width:100%;
+	min-width:100%;
 	height:auto;
 	float:left;
 	padding-bottom: 50px;
@@ -314,7 +314,7 @@ transition: opacity 0.2s ease-in-out;
 }
 
 .contentthree{
-	width:100%;
+	min-width:100%;
 	height:auto;
 	float:left;
 	background-color: #f1f5f7; /* layer fill content */
@@ -471,7 +471,7 @@ a.get:hover{
 
 
 .tableholder{
-	width: 100%;
+	min-width: 100%;
 	height: 600px;
 	float: left;
 	background-color: #f1f5f7;
@@ -988,7 +988,7 @@ a.get:hover{
 	
 	
 	.boxc{
-		width: 100%;
+		min-width: 100%;
 		height: 380px;
 		float: left;
 		
@@ -1048,7 +1048,7 @@ a.get:hover{
 	
 		
 	.fftf{
-		width: 100%;
+		min-width: 100%;
 		height: 400px;
 		float: left;
 	background-color: #fcfeff; /* layer fill content */
