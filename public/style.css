@@ -479,7 +479,7 @@ a.get:hover{
 }
 
 .table{
-	width: 1000px;
+	width: 700px;
 	margin: 0px auto;
 	height: 600px;
 }
@@ -1320,12 +1320,13 @@ opacity: 0.8;
 }
 
 .addvpn{
-	margin-left: 220px;
+	margin-left: 70px;
 	font-family: Montserrat;
 	font-size: 16px;
 	color: #718492;
 	margin-top: 30px;
 	float: left;
+	text-align: center;
 }
 
 .addvpn a{
