@@ -422,6 +422,14 @@ a.get:hover{
 	margin-top:50px;
 }
 
+.in h2{
+	font-size:25px;
+	font-family: Montserrat;
+	font-weight:bold;
+	color:#262d30;
+	text-align:center;
+	margin-top:40px;
+}
 .in p{
 	width:850px;
 	font-size:20px;
@@ -429,6 +437,42 @@ a.get:hover{
 	text-align:center;
 	margin:0px auto;
 	margin-top:30px;
+	color:#4b5559;
+	line-height:29px;
+}
+#infob{
+	width: 100%;
+	margin: 0px auto;
+	background-color: #f1f5f7;
+}
+
+#infob p{
+	width:850px;
+	font-size:20px;
+	font-family: helvetica;
+	text-align:center;
+	margin:0px auto;
+	margin-top:5px;
+	color:#4b5559;
+	line-height:29px;
+}
+
+#infob h2{
+	font-size:25px;
+	font-family: Montserrat;
+	font-weight:bold;
+	color:#262d30;
+	text-align:center;
+	margin-top:40px;
+}
+
+.in p#dess{
+	width:850px;
+	font-size:20px;
+	font-family: helvetica;
+	text-align:center;
+	margin:0px auto;
+	margin-top:5px;
 	color:#4b5559;
 	line-height:29px;
 }
@@ -472,16 +516,22 @@ a.get:hover{
 
 .tableholder{
 	min-width: 100%;
-	height: 600px;
+	height: auto;
 	float: left;
 	background-color: #f1f5f7;
 	padding-top: 40px;
 }
 
 .table{
-	width: 700px;
+	width: 1000px;
 	margin: 0px auto;
 	height: 600px;
+}
+
+.tablett{
+	width: 700px;
+	margin: 0px auto;
+	height: 550px;
 }
 
 .tableone{
@@ -1320,7 +1370,7 @@ opacity: 0.8;
 }
 
 .addvpn{
-	margin-left: 70px;
+	margin-left: 260px;
 	font-family: Montserrat;
 	font-size: 16px;
 	color: #718492;
