@@ -1326,7 +1326,7 @@ transform: scale(1.05);
 	}
 	
 	/*Button*/
-	.pricingtable a {
+	.pricingtable a.button {
 	  display: block;
 	  height: 40px;
 	  width: 150px;
