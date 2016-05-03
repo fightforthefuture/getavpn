@@ -522,6 +522,14 @@ a.get:hover{
 	padding-top: 40px;
 }
 
+.tableholdertwo{
+	min-width: 100%;
+	height: auto;
+	float: left;
+	background-color: #f1f5f7;
+	padding-top: 0px;
+}
+
 .table{
 	width: 1000px;
 	margin: 0px auto;
@@ -529,9 +537,17 @@ a.get:hover{
 }
 
 .tablett{
-	width: 700px;
+	width: 1080px;
 	margin: 0px auto;
 	height: 550px;
+	padding-left: 80px;
+}
+
+.tabletttwo{
+	width: 1080px;
+	margin: 0px auto;
+	height: 550px;
+	padding-left: 330px;
 }
 
 .tableone{
